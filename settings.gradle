@@ -9,3 +9,4 @@ dependencyResolutionManagement {
 rootProject.name = "NexusPublishing"
 include ':app'
 include ':common'
+include ':assets'

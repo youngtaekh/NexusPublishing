@@ -8,4 +8,16 @@
         android:background="@color/design_default_color_on_primary"
         tools:context=".AssetsActivity">
 
+    <TextView
+            android:id="@+id/tv_test"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/test"
+            android:padding="10dp"
+            android:background="#cccccc" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

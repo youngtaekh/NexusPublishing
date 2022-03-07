@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">NexusPublishing</string>
     <string name="asset">Assets</string>
+    <string name="test">Test</string>
 </resources>

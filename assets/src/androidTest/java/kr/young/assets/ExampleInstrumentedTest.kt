@@ -1,4 +1,4 @@
-package kr.young.asset
+package kr.young.assets
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("kr.young.asset", appContext.packageName)
+        assertEquals("kr.young.assets.test", appContext.packageName)
     }
 }

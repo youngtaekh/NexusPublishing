@@ -9,6 +9,8 @@ import android.view.View
 import android.view.View.OnClickListener
 import android.view.View.OnTouchListener
 import android.widget.TextView
+import kr.young.common.DateUtil
+import kr.young.common.DebugLog
 import kr.young.common.Test
 import kr.young.common.TouchEffect
 
@@ -17,6 +19,8 @@ class MainActivity : AppCompatActivity(), OnClickListener, OnTouchListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        //Init DebugLog
+        DebugLog.logInit(BuildConfig.DEBUG)
 
         val tvTitle = findViewById<TextView>(R.id.tv_title)
         tvTitle.text = Test.run()
@@ -43,5 +47,9 @@ class MainActivity : AppCompatActivity(), OnClickListener, OnTouchListener {
     private fun assetActivity() {
         val intent = Intent(this, AssetsActivity::class.java)
         startActivity(intent)
+    }
+
+    companion object {
+        private const val TAG = "MainActivity"
     }
 }

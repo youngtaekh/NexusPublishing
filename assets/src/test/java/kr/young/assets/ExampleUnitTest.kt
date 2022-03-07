@@ -1,4 +1,4 @@
-package kr.young.asset
+package kr.young.assets
 
 import org.junit.Test
 

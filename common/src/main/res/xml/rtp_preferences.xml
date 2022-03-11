@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/rtp_header"
+        app:iconSpaceReserved="false">
+
+        <SwitchPreferenceCompat
+            app:key="@string/key_enable_audio"
+            app:iconSpaceReserved="false"
+            android:defaultValue="true"
+            app:title="@string/title_enable_audio" />
+
+        <SwitchPreferenceCompat
+            app:key="@string/key_enable_video"
+            app:iconSpaceReserved="false"
+            app:title="@string/title_enable_video" />
+
+        <SwitchPreferenceCompat
+            app:dependency="@string/key_enable_video"
+            app:key="@string/key_enable_screen"
+            app:iconSpaceReserved="false"
+            app:title="@string/title_enable_screen" />
+
+        <SwitchPreferenceCompat
+            app:key="@string/key_enable_data"
+            app:iconSpaceReserved="false"
+            android:defaultValue="true"
+            app:title="@string/title_enable_data" />
+
+        <SwitchPreferenceCompat
+            app:key="@string/key_enable_stat"
+            app:iconSpaceReserved="false"
+            android:defaultValue="false"
+            app:title="@string/title_enable_stat" />
+
+        <SwitchPreferenceCompat
+            app:key="@string/key_enable_record"
+            app:iconSpaceReserved="false"
+            android:defaultValue="false"
+            app:title="@string/title_enable_record" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

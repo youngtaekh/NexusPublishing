@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/nat_header"
+        app:iconSpaceReserved="false">
+
+        <EditTextPreference
+            app:key="@string/key_stun_address"
+            app:title="@string/title_stun_address"
+            app:defaultValue="@string/STUN_ADDRESS"
+            app:iconSpaceReserved="false"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="@string/key_stun_port"
+            app:title="@string/title_stun_port"
+            app:defaultValue="@string/STUN_PORT"
+            app:iconSpaceReserved="false"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="@string/key_turn_address"
+            app:title="@string/title_turn_address"
+            app:defaultValue="@string/TURN_ADDRESS"
+            app:iconSpaceReserved="false"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="@string/key_turn_port"
+            app:title="@string/title_turn_port"
+            app:defaultValue="@string/TURN_PORT"
+            app:iconSpaceReserved="false"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="@string/key_turn_id"
+            app:title="@string/title_turn_id"
+            app:defaultValue="@string/TURN_ID"
+            app:iconSpaceReserved="false"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="@string/key_turn_password"
+            app:title="@string/title_turn_password"
+            app:defaultValue="@string/TURN_PASSWORD"
+            app:iconSpaceReserved="false"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

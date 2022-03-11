@@ -6,6 +6,15 @@
         <entry key="app/src/main/res/layout/activity_asset.xml" value="0.182518115942029" />
         <entry key="app/src/main/res/layout/activity_assets.xml" value="0.182518115942029" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19706180344478216" />
+        <entry key="app/src/main/res/layout/activity_pjsip.xml" value="0.14361702127659576" />
+        <entry key="common/src/main/res/drawable/ic_settings_black_24dp.xml" value="0.154" />
+        <entry key="common/src/main/res/layout/activity_settings.xml" value="0.14361702127659576" />
+        <entry key="common/src/main/res/layout/include_toolbar.xml" value="0.14361702127659576" />
+        <entry key="common/src/main/res/layout/selectable_button.xml" value="0.14361702127659576" />
+        <entry key="common/src/main/res/layout/voice_call_activity.xml" value="0.21" />
+        <entry key="common/src/main/res/xml/nat_preferences.xml" value="0.14361702127659576" />
+        <entry key="common/src/main/res/xml/rtp_preferences.xml" value="0.14361702127659576" />
+        <entry key="common/src/main/res/xml/sip_preferences.xml" value="0.14361702127659576" />
       </map>
     </option>
   </component>

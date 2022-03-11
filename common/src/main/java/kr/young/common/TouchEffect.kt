@@ -16,7 +16,7 @@ class TouchEffect {
                 val drawable = view.drawable
                 when (event?.action) {
                     MotionEvent.ACTION_DOWN -> drawable.alpha = 50
-                    else -> drawable.alpha = 255
+                    MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> drawable.alpha = 255
                 }
             }
         }
@@ -31,7 +31,7 @@ class TouchEffect {
             if (view is TextView) {
                 when (event?.action) {
                     MotionEvent.ACTION_DOWN -> view.setBackgroundColor(touchColor)
-                    else -> view.setBackgroundColor(defaultColor)
+                    MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL -> view.setBackgroundColor(defaultColor)
                 }
             }
         }

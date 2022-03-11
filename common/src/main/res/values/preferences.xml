@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sip_header">SIP</string>
+    <string name="key_outbound_address">outbound_address</string>
+    <string name="key_outbound_port">outbound_port</string>
+    <string name="key_registration_duration">registration_duration</string>
+    <string name="key_sip_id">sip_id</string>
+    <string name="key_sip_password">sip_password</string>
+    <string name="key_transport">transport</string>
+
+    <string name="title_outbound_address">Outbound Address</string>
+    <string name="title_outbound_port">Outbound Port</string>
+    <string name="title_registration_duration">Registration Duration</string>
+    <string name="title_sip_id">SIP User ID</string>
+    <string name="title_sip_password">SIP User Password</string>
+    <string name="title_transport">Select Transport</string>
+
+    <string name="nat_header">NAT</string>
+    <string name="key_stun_address">stun_address</string>
+    <string name="key_stun_port">stun_port</string>
+    <string name="key_turn_address">turn_address</string>
+    <string name="key_turn_port">turn_port</string>
+    <string name="key_turn_id">turn_id</string>
+    <string name="key_turn_password">turn_password</string>
+
+    <string name="title_stun_address">Stun Address</string>
+    <string name="title_stun_port">Stun Port</string>
+    <string name="title_turn_address">Turn Address</string>
+    <string name="title_turn_port">Turn Port</string>
+    <string name="title_turn_id">Turn ID</string>
+    <string name="title_turn_password">Turn Password</string>
+
+    <string name="rtp_header">RTP</string>
+    <string name="key_enable_audio">enable_audio</string>
+    <string name="key_enable_video">enable_video</string>
+    <string name="key_enable_screen">enable_screen</string>
+    <string name="key_enable_data">enable_data</string>
+    <string name="key_enable_stat">enable_stat</string>
+    <string name="key_enable_record">enable_record</string>
+
+    <string name="title_enable_audio">Enable Audio</string>
+    <string name="title_enable_video">Enable Video</string>
+    <string name="title_enable_screen">Enable Screen</string>
+    <string name="title_enable_data">Enable Data Channel</string>
+    <string name="title_enable_stat">Enable Stat Log</string>
+    <string name="title_enable_record">Enable Record</string>
+</resources>

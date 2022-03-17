@@ -11,7 +11,6 @@ import android.view.View
 import android.view.View.OnClickListener
 import android.view.View.OnTouchListener
 import android.widget.TextView
-import kr.young.common.DateUtil
 import kr.young.common.DebugLog
 import kr.young.common.Test
 import kr.young.common.TouchEffect

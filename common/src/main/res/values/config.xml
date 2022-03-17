@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="outbound_address">sip.linphone.org</string>
+    <string name="outbound_port">5060</string>
+    <string name="registration_duration">900</string>
+</resources>

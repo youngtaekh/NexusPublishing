@@ -4,14 +4,14 @@
     <string name="key_outbound_address">outbound_address</string>
     <string name="key_outbound_port">outbound_port</string>
     <string name="key_registration_duration">registration_duration</string>
-    <string name="key_sip_id">sip_id</string>
+    <string name="key_sip_user_name">sip_user_name</string>
     <string name="key_sip_password">sip_password</string>
     <string name="key_transport">transport</string>
 
     <string name="title_outbound_address">Outbound Address</string>
     <string name="title_outbound_port">Outbound Port</string>
     <string name="title_registration_duration">Registration Duration</string>
-    <string name="title_sip_id">SIP User ID</string>
+    <string name="title_sip_user_name">SIP User Name</string>
     <string name="title_sip_password">SIP User Password</string>
     <string name="title_transport">Select Transport</string>
 

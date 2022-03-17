@@ -9,24 +9,27 @@
         <EditTextPreference
             app:key="@string/key_outbound_address"
             app:title="@string/title_outbound_address"
+            app:defaultValue="@string/outbound_address"
             app:iconSpaceReserved="false"
             app:useSimpleSummaryProvider="true" />
 
         <EditTextPreference
             app:key="@string/key_outbound_port"
             app:title="@string/title_outbound_port"
+            app:defaultValue="@string/outbound_port"
             app:iconSpaceReserved="false"
             app:useSimpleSummaryProvider="true" />
 
         <EditTextPreference
             app:key="@string/key_registration_duration"
             app:title="@string/title_registration_duration"
+            app:defaultValue="@string/registration_duration"
             app:iconSpaceReserved="false"
             app:useSimpleSummaryProvider="true" />
 
         <EditTextPreference
-            app:key="@string/key_sip_id"
-            app:title="@string/title_sip_id"
+            app:key="@string/key_sip_user_name"
+            app:title="@string/title_sip_user_name"
             app:iconSpaceReserved="false"
             app:useSimpleSummaryProvider="true" />
 
@@ -42,6 +45,7 @@
             app:entryValues="@array/transport_values"
             app:key="@string/key_transport"
             app:title="@string/title_transport"
+            android:defaultValue="2"
             app:iconSpaceReserved="false"
             app:useSimpleSummaryProvider="true" />
 
